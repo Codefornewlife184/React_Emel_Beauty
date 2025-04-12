@@ -15,7 +15,7 @@ const TopBar = () => {
   return (
     <div
       className="topbar fixed-top header-inner-pages"
-      style={{ backgroundColor: "#000", padding: "10px" }}
+      style={{ backgroundColor: "#f7b789", padding: "10px" }}
     >
       <Container>
         <Button

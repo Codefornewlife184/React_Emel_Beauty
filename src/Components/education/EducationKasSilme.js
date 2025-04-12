@@ -236,7 +236,7 @@ function EducationKasSilme() {
                   </div>
                   <div className="col-lg-4 text-center order-1 order-lg-2">
                     <img
-                      src="assets/img/foto/thumbs/kas-kirpik-laminasyon-1.webp"
+                      src="assets/img/foto/thumbs/kas-silme.webp"
                       alt="Kaş Silme"
                       title="Kaş Silme"
                       className="img-fluid"

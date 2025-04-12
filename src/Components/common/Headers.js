@@ -33,18 +33,19 @@ function Header() {
         expanded={expanded}
         collapseOnSelect // Menü öğesine tıklandığında menünün daralmasını sağlar
       >
-        <Container>
-          <Link to="/" onClick={handleClick} className="logo me-3">
+        <Container className="container d-flex align-items-center justify-content-center">
+          <Link to="/" onClick={handleClick} className="logo">
             <img
               src="assets/img/Siyah Logo.webp"
               alt="Emel Beauty Logo"
               title="Logo"
               className="img-fluid"
-              /* style={{ maxHeight: '50px' }} */
             />
           </Link>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <Navbar.Toggle onClick={toggleNav} aria-controls="basic-navbar-nav" />
           <Navbar.Collapse
+            expanded={expanded}
             className="justify-content-center"
             id="basic-navbar-nav"
           >

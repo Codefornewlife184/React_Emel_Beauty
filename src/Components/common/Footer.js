@@ -190,10 +190,15 @@ function Footer() {
         <div className="container footer-bottom clearfix">
           <div className="copyright">
             <strong>
-              <span>Emel Beauty Studio &copy; 2023</span>
+              <span>Emel Beauty Studio &copy; 2025</span>
             </strong>
             <br />
             {t("Tüm Hakları Saklıdır")}
+          </div><br />
+          <div className="copyright">
+            <strong>
+              <span>Web Dizayn : <a href="https://webcenter.com.tr" target="_blank" rel="noopener noreferrer">Web Center</a></span>
+            </strong>
           </div>
           <div className="credits"></div>
         </div>
